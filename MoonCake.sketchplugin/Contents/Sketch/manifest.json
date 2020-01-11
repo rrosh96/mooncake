@@ -1,0 +1,27 @@
+{
+  "author" : "Roshan Raju",
+  "commands" : [
+    {
+      "script" : "script.js",
+      "shortcut": "shift cmd m",
+      "name" : "MoonCake",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier",
+      "description": "Rename and Copy"
+    }
+  ],
+  "menu" : {
+    "title" : "MoonCake",
+    "items" : [
+      "com.bohemiancoding.sketch.runscriptidentifier"
+    ]
+  },
+  "identifier" : "com.example.sketch.cc58e603-1906-4597-bdad-8ec423c152d4",
+  "version" : "1.0",
+  "description" : "Rename and copy your Artboard",
+  "authorEmail" : "",
+  "name" : "MoonCake",
+  "icon": "mooncake.png"
+}
